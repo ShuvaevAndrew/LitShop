@@ -488,18 +488,27 @@ body{
     background-size: cover;
     
 }
-.intro__title{
+.after__intro{
+    height: 100vh;
+    background: url(../img/Пикча2.svg) no-repeat top;
+    background-size: 100% auto;
+}
+.after__intro__title{
     max-width: 370px;
-    padding-top: 907px;
+    padding-top: 53px;
+    padding-bottom: 5px;
     margin-left: 63px;
     font-size: 40px;
     font-weight: 900;
     line-height: 34px;
 }
-.after__intro{
-    height: 100vh;
-    background: url(../img/Пикча2.svg) no-repeat center;
-    background-size: 100% auto;
+.after__intro__text{
+    max-width: 441px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 63px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #666666;
 }
-
 /*INTRO STYLE END*/
