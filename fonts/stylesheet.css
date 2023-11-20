@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('AvenirNext-Heavy.woff2') format('woff2'),
+        url('AvenirNext-Heavy.woff') format('woff'),
+        url('AvenirNext-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

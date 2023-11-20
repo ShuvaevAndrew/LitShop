@@ -330,7 +330,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #ffffff;
 }
 
 
@@ -427,9 +427,9 @@ textarea {
     url('http://anthillrealtors.co.id/wp-content/themes/x-child/Fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
 }
    
-  /* body{
-    font-family: 'AvenirNextLTPro-Regular';
-  } */
+    /* body{
+        font-family: 'AvenirNextLTPro-Regular';
+    } */
 html{
     box-sizing: border-box;
 }
@@ -444,97 +444,190 @@ body{
     color: #000;
 
 }
+.text-center{
+    text-align: center;
+}
+/* <------HEADER START------> */
+    .navbar-light .navbar-nav .nav-link {
+        color: #666;
+        
+    }
 
-/*HEADER STYLE START*/
-.wrapper{
-    margin: 0 auto;
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #383838;
+    }
+
+.nav-item{
+    display: flex;
+    align-items: center;
+
 }
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
+/* <------HEADER END------> */
+
+/* <-------WHEEL COLLECTION-----> */
+
+.collection-wrapper {
+    text-align: center;
     width: 100%;
+    padding: 20px;
 }
-.header__wrapper{
+
+.collection-title {
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    font-size: 35px;
+    font-family: 'Avenir Next';
+    font-weight: 900;
+    font-style: normal;
+    color: #000;
+}
+.column-container {
     display: flex;
     flex-wrap: wrap;
-   
-    justify-content:flex-start;
-    padding-top: 26px;
-    padding-bottom: 16px;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-.header__logo{
-    margin-left: 46px; /*??????*/
-    margin-right: 41px;
-}
-.header__list{
-    display: flex;
-    flex-wrap: wrap;  
-    padding-top: 8px; 
-    list-style-type: none;
-}
-.header__item{
-    margin-right: 18px;
-    margin-left: 18px;
-}
-.header__link{
-    font-size: 12px;
-    line-height: 12px;
-    color: #666666;
-    text-decoration: none;
-}
-.header__link:hover, .header__link:focus, .header__link:active{
-    opacity: 0.75;
-}
-/*HEADER STYLE END*/
-
-/*INTRO STYLE START*/
-
-.intro{
-    height: 100vh;
-    background: url(../img/porsche\ panamera.svg) no-repeat center;
-    background-size: cover;
-    
-}
-.after__intro{
-    height: 100vh;
-    background: url(../img/Пикча2.svg) no-repeat top;
-    background-size: 100% auto;
-}
-.after__intro__title{
-    max-width: 370px;
-    padding-top: 53px;
-    padding-bottom: 5px;
-    margin-left: 63px;
-    font-size: 40px;
+.section-title h2 {
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    font-size: 35px;
+    font-family: 'Avenir Next';
     font-weight: 900;
-    line-height: 34px;
+    font-style: normal;
+    color: #000;
 }
-.after__intro__text{
-    max-width: 441px;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 63px;
-    font-weight: 400;
-    line-height: 17px;
+.medium-4 {
+    width: 33.33333%;
+}
+.collection img {
+    width: 100%;
+    transform: scale(1);
+}
+img {
+    transition: all .3s ease-in-out;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    display: inline-block;
+    vertical-align: middle;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.collection a {
+    position: relative;
     color: #666666;
-    margin-bottom: 220px;
-}
-.wheel__collection {
-    text-align: center;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    color: #666;
-  }
-  
-  .wheel__collection::after {
-    content: "";
     display: block;
-    border-bottom: 1px solid #666;
+}
+a {
+    color: #333333;
+    transition: all .3s ease-in-out;
+}
+a {
+    color: #cc0000;
+    text-decoration: none;
+    line-height: inherit;
+    cursor: pointer;
+}
+a {
+    background-color: transparent;
+}
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+    float: right;
+}
+
+.block-title {
+    border: 4px solid #666666;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 160px;
+    padding: .5rem;
+    font-weight: 500;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    transition: all .3s ease-in-out;
+}  
+.block-title-piece{
+    font-weight: 500;
+    font-size: 20px;
+}  
+.block-title-short{
+    font-weight: 500;
+    font-size: 40px;
+}  
+.block-title-long{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 45px;
+}  
+.collection-image:hover img {
+    transform: scale(1.1);
+}
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.column {
+    flex: 0 0 calc(33.33%);
+    margin-bottom: 20px;
+}
+
+.collection-category {
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.collection-image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.collection-category:hover .collection-image img,
+.collection-category:focus .collection-image img {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 640px) {
+    .column {
+        flex: 0 0 100%;
+    }
+}
+/* <-------WHEEL COLLECTION END-----> */
+
+/* <-------NEW WHEELS-----> */
+
+.new-wheels {
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.slick-slider {
+    width: 70%; /* Adjust the width as needed */
     margin: 0 auto;
-    width: 27%;
-    margin-top: 5px;
-  }
-  
-/*INTRO STYLE END*/
+}
+
+.slick-prev, .slick-next {
+    font-size: 24px;
+    color: black;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    color: gray;
+}
+
+/* <-------NEW WHEELS END-----> */
