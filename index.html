@@ -1,53 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-En">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>LitShop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preload" href="AvenirNext-Heavy.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-5" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-5" rel="stylesheet"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick-theme.css"/>    
 </head>
 <body>
-    <header class="header"></header>
-        <div class="wrapper">
-            <div class="header__wrapper">
-                <div class="header__logo">
-                    <a href="/" class="header__logo-link">
-                        <img src="./img/LitShop.svg" alt="YOU NEED THESE WHEELS." class="header__logo-pic">
+    <header id="header" class="header__fixed">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ffffff">
+            <div class="container">
+                <a href="../index.html" class="navbar-brand">LitShop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" 
+                aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navContent">
+                    <ul class="navbar-nav " >
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">WHEEL COLLECTION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../test2.html" class="nav-link">CONTACT</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/carousel_1.svg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/carousel_2.svg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/carousel_3.svg" class="d-block w-100" alt="Slide 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/carousel_4.svg" class="d-block w-100" alt="Slide 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/carousel_5.svg" class="d-block w-100" alt="Slide 5">
+                </div>
+            </div>
+        </div> 
+        <section class="section d-flex align-items-center" style="background-image: url('../img/Пикча2.svg'); background-size: cover; background-position: center; height: 500px; color: #ffffff;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section__title" style="max-width: 370px; padding-top: 53px; padding-bottom: 5px; margin-left: 4%; font-size: 40px; font-weight: 900;line-height: 34px; color: #000;">
+                            <h1>YOU NEED<br>THESE WHEELS.</h1>
+                        </div>
+                        <div class="about__text" style="max-width: 441px; font-size: 14px; font-family: Arial, Helvetica, sans-serif; margin-left: 4%; font-weight: 400;line-height: 17px; color: #666666; margin-bottom: 220px;">
+                            <p>No one's ever made history by staying in their lane. Fortune favors the bold, the eccentric; the ones ready to break the mold with their own style. Remember, there's no way to purchase passion - you can't rent real - and you can never buy cool. That's why we include it free in every Lit box - for those who think outside of one.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="collection">
+            <div class="collection-wrapper">
+                <div class="collection-title">
+                    WHEEL COLLECTION
+                </div>
+            </div>
+            <div class="column-container">
+                <div class="column">
+                    <a href="#">
+                        <div class="collection-category">
+                            <div class="block-title">
+                                <div class="block-title-piece">01</div>
+                                <div class="block-title-short">Ca</div>
+                                <div class="block-title-long">Cast Monoblock</div>
+                            </div>
+                            <div class="collection-image">
+                                <img src="../img/ca.svg" alt="">
+                            </div>
+                        </div>
                     </a>
                 </div>
-                <nav class="header__nav">
-                    <u1 class="header__list">
-                        <li class="header__item">
-                            <a href="#!" class="header__link">WHEEL COLLECTION</a>
-                        </li>
-                        <li class="header__item">
-                            <a href="" class="header__link">|</a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#!" class="header__link">CONTACT</a>
-                        </li>
-                        <li class="header__item">
-                            <a href="" class="header__link">|</a>
-                        </li>
-                    </u1>
-                </nav>
-            </div>
-        </div>
-    <main class="main">
-        <section class="intro">
-           
-        </section>
-        <section class="after__intro">
-            <div class="wrapper">
-                <h1 class="after__intro__title">YOU NEED THESE WHEELS.</h1>
-                <h2 class="after__intro__text">No one's ever made history by staying in their lane. Fortune favors the bold, the
-                    eccentric; the ones ready to break the mold with their own style. Remember, there's
-                    no way to purchase passion - you can't rent real - and you can never buy cool.
-                    That's why we include it free in every Rotiform box - for those who think outside of
-                    one.</h2>
+                <div class="column">
+                    <a href="#">
+                        <div class="collection-category">
+                            <div class="block-title">
+                                <div class="block-title-piece">02</div>
+                                <div class="block-title-short">CS</div>
+                                <div class="block-title-long">Cast Monoblock</div>
+                            </div>
+                            <div class="collection-image">
+                                <img src="../img/cs.svg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="#">
+                        <div class="collection-category">
+                            <div class="block-title">
+                                <div class="block-title-piece">03</div>
+                                <div class="block-title-short">RS</div>
+                                <div class="block-title-long">Cast Monoblock</div>
+                            </div>
+                            <div class="collection-image">
+                                <img src="../img/rs.svg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div> 
             </div>
         </section>
-    </main>
+        <section class="car-back" class="d-block w-100">
+            <img src="../img/porche.svg" alt="">
+        </section>
+        <section class="new-wheels">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="collection-wrapper">
+                            <div class="collection-title">
+                                NEW CAST WHEELS
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="slick-slider">
+                            <div><img src="../img/slide-1.svg" alt="Изображение 1"></div>
+                            <div><img src="../img/slide-2.svg" alt="Изображение 2"></div>
+                            <div><img src="../img/slide-3.svg" alt="Изображение 3"></div>
+                            <div><img src="../img/slide-4.png" alt="Изображение 4"></div>
+                            <div><img src="../img/slide-5.png" alt="Изображение 5"></div>
+                            <div><img src="../img/slide-6.png" alt="Изображение 6"></div>
+                            <div><img src="../img/slide-7.png" alt="Изображение 7"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </main> 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="path/to/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
