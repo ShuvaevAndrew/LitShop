@@ -3,14 +3,36 @@ $(document).ready(function(){
         dots: false,
         slidesToShow: 3, 
         slidesToScroll: 1, 
-        prevArrow: '<button class="slick-prev">&#9665;</button>',
-        nextArrow: '<button class="slick-next">&#9655;</button>',
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: '<button class="slick-prev"></button>',
+        nextArrow: '<button class="slick-next"></button>',
         responsive: [
             {
                 breakpoint: 640,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
+                }
+            }
+        ]
+    });
+});
+$(document).ready(function(){
+    $('.slick-second').slick({
+        dots: false,
+        slidesToShow: 5, 
+        slidesToScroll: 5, 
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: '<button class="slick-prev"></button>',
+        nextArrow: '<button class="slick-next"></button>',
+        responsive: [
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
                 }
             }
         ]
