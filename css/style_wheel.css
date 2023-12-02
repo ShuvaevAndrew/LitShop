@@ -418,14 +418,7 @@ textarea {
     url('http://anthillrealtors.co.id/wp-content/themes/x-child/fonts/AvenirNextLTPro-Regular.ttf') format('truetype'),
     url('http://anthillrealtors.co.id/wp-content/themes/x-child/fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
   }
-@font-face {
-    font-family: 'AvenirNextLTPro-Regular';
-    src: url('http://anthillrealtors.co.id/wp-content/themes/x-child/Fonts/AvenirNextLTPro-Regular.eot');
-    src: url('http://anthillrealtors.co.id/wp-content/themes/x-child/Fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
-    url('http://anthillrealtors.co.id/wp-content/themes/x-child/Fonts/AvenirNextLTPro-Regular.woff') format('woff'),
-    url('http://anthillrealtors.co.id/wp-content/themes/x-child/Fonts/AvenirNextLTPro-Regular.ttf') format('truetype'),
-    url('http://anthillrealtors.co.id/wp-content/themes/x-child/Fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
-}
+
    
     /* body{
         font-family: 'AvenirNextLTPro-Regular';
@@ -464,73 +457,13 @@ body{
 }
 /* <------HEADER END------> */
 
-/* <-------WHEEL COLLECTION-----> */
 
-.collection-wrapper {
-    text-align: center;
-    width: 100%;
-    padding: 20px;
-}
-
-.collection-title {
-    font-size: 24px;
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px solid #000;
-    font-size: 35px;
-    font-family: 'Avenir Next';
-    font-weight: 900;
-    font-style: normal;
-    color: #000;
-}
-.column-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-.section-title h2 {
-    font-size: 24px;
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px solid #000;
-    font-size: 35px;
-    font-family: 'Avenir Next';
-    font-weight: 900;
-    font-style: normal;
-    color: #000;
-}
-.medium-4 {
-    width: 33.33333%;
-}
-.collection img {
-    width: 100%;
-    transform: scale(1);
-}
-img {
-    transition: all .3s ease-in-out;
-}
-img {
-    max-width: 100%;
-    height: auto;
-    -ms-interpolation-mode: bicubic;
-    display: inline-block;
-    vertical-align: middle;
-}
-*, *::before, *::after {
-    box-sizing: inherit;
-}
-.collection a {
-    position: relative;
-    color: #666666;
-    display: block;
-}
 a {
     color: #333333;
     transition: all .3s ease-in-out;
 }
 a {
-    color: #000;
+    color: #cc0000;
     text-decoration: none;
     line-height: inherit;
     cursor: pointer;
@@ -542,53 +475,8 @@ a {
     float: right;
 }
 
-.block-title {
-    border: 4px solid #666666;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 150px;
-    height: 160px;
-    padding: .5rem;
-    font-weight: 500;
-    z-index: -1;
-    display: flex;
-    flex-direction: column;
-    transition: all .3s ease-in-out;
-}  
-.block-title-piece{
-    font-weight: 500;
-    font-size: 20px;
-}  
-.block-title-short{
-    font-weight: 500;
-    font-size: 40px;
-}  
-.block-title-long{
-    font-weight: 500;
-    font-size: 15px;
-    margin-top: 45px;
-}  
-.collection-image:hover img {
-    transform: scale(1.1);
-}
-.collection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 50px;
-}
 
-.column {
-    flex: 0 0 calc(33.33%);
-    margin-bottom: 20px;
-}
 
-.collection-category {
-    padding: 20px;
-    text-align: left;
-    transition: transform 0.3s ease-in-out;
-}
 
 .collection-image img {
     max-width: 100%;
@@ -608,63 +496,6 @@ a {
 }
 /* <-------WHEEL COLLECTION END-----> */
 
-/* <-------NEW WHEELS-----> */
-
-.new-wheels {
-    text-align: center;
-    padding: 50px 0;
-}
-
-
-.slick-slider {
-    width: 70%; /* Adjust the width as needed */
-    margin: 0 auto;
-}
-
-.slick-prev, .slick-next {
-    font-size: 24px;
-    color: black;
-}
-
-.slick-prev:hover, .slick-next:hover {
-    color: gray;
-}
-.slick-next {
-    background-image: url(../img/arrow-right.png);
-    background-size: cover;
-    width: 43px; 
-    height: 115px;
-    border: none;
-    cursor: pointer; 
-}
-
-/* .slick-next:hover {
-    
-} */
-
-/* <-------NEW WHEELS END-----> */
-.down_pics {
-    display: flex;
-    justify-content: space-around; /* or justify-content: space-between; */
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.col {
-    flex: 1;
-    max-width: 20%;
-    box-sizing: border-box;
-    
-}
-
-img {
-    width: 100%;
-    height: auto;
-    display: flex;
-    max-width: 100%;
-}
-
-
 
 .footer {
     background-color: #333; 
@@ -675,4 +506,79 @@ img {
 .footer h2{
     font-weight: 500;
     font-size: 20px;
+}
+
+
+/* <-------CONTACT-----> */
+.contact-wrapper {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.contact-title {
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+    
+    font-size: 35px;
+    font-family: 'Helvetica Neue';
+    font-weight: 900;
+    font-style: normal;
+    color: #272424;
+
+}
+.contact-opisanie1 {
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+    font-style: normal;
+    color: #868686;
+
+}
+@media screen and (max-width: 640px) {
+    .container-sm {
+        flex:  0 100%;
+    }
+}
+@media (max-width: 994px) {
+    .col-sm-3 {
+        width: 50%;
+    }
+}
+
+/* Media query for screens smaller than 664px */
+@media (max-width: 664px) {
+    .col-sm-3 {
+        width: 100%; 
+    }
+}
+
+/* <-------wheel collection-----> */
+.wheel_collection-wrapper {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.wheel_collection-title {
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+
+    font-size: 35px;
+    font-family: 'Avenir Next';
+    font-weight: 900;
+    font-style: normal;
+    color: #000;
+}
+
+.collection-text{
+    color:#000;
+    font-family: 'JimNightshade';
+    font-size: 24px;
 }
