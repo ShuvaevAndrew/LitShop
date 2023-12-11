@@ -23,8 +23,8 @@ $(document).ready(function(){
         dots: false,
         slidesToShow: 5, 
         slidesToScroll: 5, 
-        autoplay: true,
-        autoplaySpeed: 2000,
+        autoplay: false,
+        autoplaySpeed: 0,
         prevArrow: '<button class="slick-prev"></button>',
         nextArrow: '<button class="slick-next"></button>',
         responsive: [
